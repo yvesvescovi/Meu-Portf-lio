@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .button-contact button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: crimson;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .button-contact button:hover{
+    box-shadow: 0px 0px 8px #ff0202;
+}
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0px;
+}
+
+.img-topo-site{
+    text-align: center;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/* ESTILO DAS ESPECIALIDADES */
+section.habilidades{
+    padding: 40px 4%;
+}
+
+section.habilidades .flex{
+    gap: 60px;
+}
+
+.habilidades .habilidades-box{
+    color: #fff;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.habilidades .habilidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff60;
+}
+
+.habilidades .habilidades-box h2{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+/* EXPERIENCIA PROFISSIONAL */
+.conteiner .table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner h1{
+    padding: 40px 4%;
+}
+
+.conteiner th{
+    background-color: #e41212;
+    color: white;
+}
+
+.conteiner td{
+    color: #fff;
+}
+
+
+/*  FORMULÁRIO */
+.formu {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 40px 4%;
+    background-color: #000000;
+    border-radius: 10px;
+    
+}
+
+.formu h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: calc(100% - 20px); /* Para considerar o padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form .btn-enviar input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form .btn-enviar input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+/* CONTATOS */
+.rede{
+    text-align: center;
+}
+
+.rede h1{
+    margin: 15px 0;
+    color: #fff;
+    padding: 30px 3%;
+}
